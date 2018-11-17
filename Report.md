@@ -14,7 +14,7 @@ The archetecture used 3 layers:
         x = F.relu(self.fc2(x))
         return F.tanh(self.fc3(x))
         
-Where, fc1_units = 400, fc2_units = 300.
+Initially, fc1_units = 400 and fc2_units = 300.  However, it could not achieve an average score of 30.
 
 
 
