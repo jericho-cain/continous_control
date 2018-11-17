@@ -4,7 +4,7 @@
 
 ### Model Archetecture
 
-The archetecture used 3 layers:
+Initial model archetecture used 3 layers:
 
         self.fc1 = nn.Linear(state_size, fc1_units)
         self.fc2 = nn.Linear(fc1_units, fc2_units)
@@ -21,3 +21,5 @@ The archetecture used 3 layers:
 I.  fc1_units = 400 and fc2_units = 300.  However, it could not achieve an average score of 30:
 
 ![alt text](first_attempt.png "Result I")
+
+II.  fc1_units = 128 and fc2_units = 128.
