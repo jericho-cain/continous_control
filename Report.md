@@ -18,4 +18,6 @@ The archetecture used 3 layers:
 
 ### Results
 
-Initially, fc1_units = 400 and fc2_units = 300.  However, it could not achieve an average score of 30.
+I.  fc1_units = 400 and fc2_units = 300.  However, it could not achieve an average score of 30:
+
+![alt text](first_attempt.png "Result I")
