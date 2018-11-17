@@ -14,6 +14,15 @@ The observation space consists of 33 variables corresponding to position, rotati
 
 The task is episodic, and in order to solve the environment, the agent must get an average score of +30 over 100 consecutive episodes.
 
+### Setting Up the Environment
+
+The environment can be found here:
+
+Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
+Mac OSX: click here
+Windows (32-bit): click here
+Windows (64-bit): click here
+
 ## Solution Implementation
 
 The file Continuous_Control.ipynb is a python notebook that contains the solution.  Running it will create the environment.  The Deep Deterministic Policy Gradient (DDPG) method and experience replay are used.   The neural network archetecture is implemented in model.py and the agent in ddpg_agent.py.
