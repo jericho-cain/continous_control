@@ -14,12 +14,22 @@ Initial model archetecture used 3 layers:
         x = F.relu(self.fc2(x))
         return F.tanh(self.fc3(x))
         
+Second model added batch normalization:
+
+        self.fc1 = nn.Linear(state_size, fc1_units)
+        self.fc2 = nn.Linear(fc1_units, fc2_units)
+        self.fc3 = nn.Linear(fc2_units, action_size)
+        self.bn1 = nn.BatchNorm1d(fc1_units)
+        self.bn2 = nn.BatchNorm1d(fc2_units)
+        
 ### Hyperparameters
 
 ### Results
 
-I.  fc1_units = 400 and fc2_units = 300.  However, it could not achieve an average score of 30:
+I.  Initial Model, fc1_units = 400 and fc2_units = 300.  However, it could not achieve an average score of 30:
 
 ![alt text](first_attempt.png "Result I")
 
-II.  fc1_units = 128 and fc2_units = 128.
+II.  Initial Model, fc1_units = 128 and fc2_units = 128.
+
+III.  Second Model, fc1_units = 128 and fc2_units = 128.
