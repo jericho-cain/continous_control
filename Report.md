@@ -46,7 +46,7 @@ Critic:
         self.fcs1 = nn.Linear(state_size, fcs1_units)
         self.fc2 = nn.Linear(fcs1_units+action_size, fc2_units)
         self.fc3 = nn.Linear(fc2_units, 1)
-        self.bn1 = nn.BatchNorm1d(fcs1_units)
+        self.b1 = nn.BatchNorm1d(fcs1_units)
         
         xs = F.relu(self.fcs1(state))
         xs = self.b1(xs)
