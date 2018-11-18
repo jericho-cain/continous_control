@@ -2,6 +2,8 @@
 
 ### Learning Algorithim
 
+[Paper](https://arxiv.org/pdf/1509.02971.pdf)
+
 ### Model Archetecture
 
 I. *Initial model* archetecture used 3 layers for the Actor:
