@@ -2,7 +2,7 @@
 
 ### Learning Algorithim
 
-[Paper](https://arxiv.org/pdf/1509.02971.pdf)
+ The code used in this project was repurposed from code provided in Udacity projects like the pendelum project.  The algorithim comes from this [paper](https://arxiv.org/pdf/1509.02971.pdf) and is described via pseudo code in the image below:
 
 ![alt text](image_alg.png "DDPG Algorithim")
 
