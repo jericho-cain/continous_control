@@ -4,7 +4,7 @@
 
 ### Model Archetecture
 
-*Initial model* archetecture used 3 layers for the Actor:
+I. *Initial model* archetecture used 3 layers for the Actor:
 
         self.fc1 = nn.Linear(state_size, fc1_units)
         self.fc2 = nn.Linear(fc1_units, fc2_units)
@@ -24,7 +24,7 @@ and in the Critic:
         x = torch.cat((xs, action), dim=1)
         x = F.relu(self.fc2(x))
         
-*Second model* added batch normalization.  Actor:
+II. *Second model* added batch normalization.  Actor:
 
         self.fc1 = nn.Linear(state_size, fc1_units)
         self.fc2 = nn.Linear(fc1_units, fc2_units)
