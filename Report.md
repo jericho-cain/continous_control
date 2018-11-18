@@ -83,4 +83,5 @@ III.  Second Model, fc1_units = 128, fc2_units = 128, fcs1_units=128, fc2_units=
         Episode 200	Average Score: 27.88
         Episode 219	Average Score: 30.10
         
+![alt text](third_attempt.png "Result I")
         
