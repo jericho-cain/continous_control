@@ -87,3 +87,6 @@ III.  Second Model, fc1_units = 128, fc2_units = 128, fcs1_units=128, fc2_units=
         
 ![alt text](third_attempt.png "Result I")
         
+### Future Work
+
+Test different Agents like PPO, A3C or D4PG with the second Version of the Reacher environment.
