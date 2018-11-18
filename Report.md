@@ -86,6 +86,8 @@ III.  Second Model, fc1_units = 128, fc2_units = 128, fcs1_units=128, fc2_units=
         Episode 219	Average Score: 30.10
         
 ![alt text](third_attempt.png "Result I")
+
+Batch Normalization was the key change here that got the network to converge on a solution to the environment.
         
 ### Future Work
 
