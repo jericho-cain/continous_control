@@ -77,4 +77,10 @@ II.  Initial Model, fc1_units = 128, fc2_units = 128, fcs1_units=128, fc2_units=
         Episode 300	Average Score: 22.28
         Episode 346	Average Score: 18.42
 
-III.  Second Model, fc1_units = 128, fc2_units = 128, fcs1_units=128, fc2_units=128, with Batch Normalization:
+III.  Second Model, fc1_units = 128, fc2_units = 128, fcs1_units=128, fc2_units=128, with Batch Normalization.  Solved:
+        
+        Episode 100	Average Score: 4.56
+        Episode 200	Average Score: 27.88
+        Episode 219	Average Score: 30.10
+        
+        
