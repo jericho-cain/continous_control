@@ -26,10 +26,15 @@ Second model added batch normalization:
 
 ### Results
 
-I.  Initial Model, fc1_units = 400 and fc2_units = 300.  However, it could not achieve an average score of 30:
+I.  Initial Model, fc1_units = 400 and fc2_units = 300.  Did not achieve an average score of 30:
 
 ![alt text](first_attempt.png "Result I")
 
-II.  Initial Model, fc1_units = 128 and fc2_units = 128.
+II.  Initial Model, fc1_units = 128 and fc2_units = 128.  Did not acheive an average score of 30:
 
-III.  Second Model, fc1_units = 128 and fc2_units = 128.
+        Episode 100	Average Score: 2.67
+        Episode 200	Average Score: 15.42
+        Episode 300	Average Score: 22.28
+        Episode 346	Average Score: 18.42
+
+III.  Second Model, fc1_units = 128 and fc2_units = 128, with Batch Normalization:
