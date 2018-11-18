@@ -4,6 +4,8 @@
 
 [Paper](https://arxiv.org/pdf/1509.02971.pdf)
 
+![alt text](image (2).png)
+
 ### Model Archetecture
 
 I. *Initial model* archetecture used 3 layers for the Actor:
