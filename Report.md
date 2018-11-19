@@ -81,9 +81,9 @@ II.  Initial Model, fc1_units = 128, fc2_units = 128, fcs1_units=128, fc2_units=
 
 III.  Second Model, fc1_units = 128, fc2_units = 128, fcs1_units=128, fc2_units=128, with Batch Normalization.  Solved:
         
-        Episode 100	Average Score: 4.56
-        Episode 200	Average Score: 27.88
-        Episode 219	Average Score: 30.10
+        Episode 100	Average Score: 2.74
+        Episode 200	Average Score: 23.88
+        Episode 231	Average Score: 30.19Environment Solved!
         
 ![alt text](third_attempt.png "Result I")
 
