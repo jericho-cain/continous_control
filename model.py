@@ -28,7 +28,6 @@ class Actor(nn.Module):
         self.fc2 = nn.Linear(fc1_units, fc2_units)
         self.fc3 = nn.Linear(fc2_units, action_size)
         self.b1 = nn.BatchNorm1d(fc1_units)
-        self.b2 = nn.BatchNorm1d(fc2_units)
         self.reset_parameters()
 
     def reset_parameters(self):
@@ -65,7 +64,6 @@ class Critic(nn.Module):
         self.fc2 = nn.Linear(fcs1_units+action_size, fc2_units)
         self.fc3 = nn.Linear(fc2_units, 1)
         self.b1 = nn.BatchNorm1d(fcs1_units)
-        self.b2 = nn.BatchNorm1d(fc2_units)
         self.reset_parameters()
 
     def reset_parameters(self):
