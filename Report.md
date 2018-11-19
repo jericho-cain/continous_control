@@ -8,6 +8,8 @@
 
 ### Model Archetecture
 
+Initially I brought in code from the pendelum project but the agent was unable to solve the environment within 500 episodes. After a few attempts, I found a solution on the student hub - using batch normalization. 
+
 I. *Initial model* archetecture used 3 layers for the Actor:
 
         self.fc1 = nn.Linear(state_size, fc1_units)
